@@ -1,0 +1,179 @@
+#designer {
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-weight:normal !important;
+	font-size:0.9rem !important;
+	background:#fff !important;
+	text-align:left !important;
+	background-color: #ffffff !important;
+}
+
+#designer input, #designer select, #designer textarea {
+	font-size:0.9rem !important;
+	padding:5px !important;
+	margin:5px 0 0 0 !important;
+}
+
+/* Подсказки */
+
+#designer .des-helper, #designer a.des-helper, #designer a.des-helper:hover {
+	position: relative !important;
+	width:12px !important;
+	height:12px !important;
+	background:#6C6 !important;
+	padding: 1px 5px !important;
+	text-align:center !important;
+	border-radius:3px !important;	
+	color:#fff !important;
+	font-size:0.7rem !important;
+	font-weight:bold !important;
+	font-family: "Arial Black", Gadget, sans-serif !important;
+	cursor:default !important;
+	text-decoration:none !important;
+}
+
+#designer .des-helper span {
+	margin-left: -999em;
+	position: absolute;
+}
+
+#designer .des-helper:hover span {
+	position: absolute;
+	left: 1.5em;
+	top: -2em;	
+	z-index: 10;
+	margin-left: 0;
+	width: 400px;
+	padding:15px 20px;
+	border:1px solid #ccc;		
+	border-radius:5px;
+	text-align:left;	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.9rem;
+	color:#222; 
+	background:#EAFFF4; 
+	font-weight:normal;	
+}
+
+/* Параметры */
+
+#designer .des-header {
+	font-size:1.2rem;
+	background:#4d565b;
+	color:white;
+	padding:3px 10px;
+	margin: 2px 0;
+	min-height:20px;
+	border-radius:3px;
+	cursor:pointer;
+}
+
+#designer .des-param-box {
+	float:left;
+	padding:10px 20px 15px 20px;
+	color:#101010;
+	font-size:0.9rem;
+	min-height:50px;
+
+}
+
+#designer .des-border {
+	background:#f0f0f0;
+	padding:8px;
+	border:3px #fff solid;
+}
+
+#designer .des-param-name {
+	font-size:1rem;
+}
+
+#designer .des-param-box label, #designer .des-param-name label {
+	border-bottom:dashed 1px gray;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#designer .des-button, #designer .des-button:hover, #designer a.des-button, #designer a.des-button:hover  {
+	display:block;
+	min-height:30px !important;
+	margin:10px 10px 10px 0px !important;
+	color:#FFF !important;
+	background:#090 !important;
+	border:0px !important;
+	border-radius:6px !important;
+	text-align:center !important;
+	text-decoration:none !important;
+	box-shadow: 3px 3px 3px #999 !important;
+
+	line-height:48px;
+	font-size:1.3rem;
+}
+
+#designer .des-button-small {
+	width:150px;
+}
+
+#designer .des-button-middle {
+	width:200px;	
+}
+
+#designer .des-button-big {
+	width:250px;	
+}
+
+#designer .show-options {
+	margin:10px 0 0 10px;
+}
+
+#designer .show-options .des-param-name {
+	display:inline-block;
+	padding:0;
+	margin:0 20px 0 0;
+	font-size:0.8rem;
+}
+
+#designer .des-summary {
+	margin:20px 0 0 0;
+	background:#f5f5f5;
+	border-top:1px dashed #CCC;
+	border-bottom:1px dashed #CCC;
+	padding:10px;
+}
+
+#designer .des-summary div:nth-child(1) {
+	float:left !important;
+	width:15% !important;
+	font-size:1.3rem !important;
+	margin:0 10px 30px 0 !important;
+}
+
+#designer .des-summary #id {
+	float:left !important;
+	width:80% !important;
+	font-size:1rem !important;
+}
+
+#designer .des-summary a.show-order-box {
+	float:right !important;
+	margin:15px 10px 10px 40px !important;
+	color:#fff !important;
+	font-weight:normal !important;
+}
+
+#designer #order-box .response {
+	margin:10px 0 0 0;
+	color:red;
+	display:none;
+	font-size:1rem;
+	width:500px;
+}
+
+#designer #inprocess {
+	display:none;
+	position:absolute;
+	top:32px;
+	left:100px;
+	background:url("") 0 0 no-repeat;	
+	width:32px;
+	height:32px;
+	color:#3f3f3f;
+}

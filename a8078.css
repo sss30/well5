@@ -1,0 +1,336 @@
+@media (min-width: 768px) and (max-width: 991px) {
+.container{width:720px;}
+.white-btn,
+.white-btn:focus,
+.red-btn,
+.red-btn:focus{height:36px;line-height:38px;}
+#top-line{height:105px;padding-top:30px;overflow:hidden;}
+#logo{width:185px;}
+#logo a,
+#logo a img{max-width:185px;max-height:48px;}
+#top-line .work-time{width:145px;}
+#top-line .phones,
+#callback{width:165px;}
+#logo,
+#top-line .work-time,
+#top-line .phones{margin:0 20px 0 0;}
+#logo a{width:185px;height:42px;background-size:185px auto;}
+#top-line .work-time,
+#top-line .phones{padding-left:30px;font-size:14px;line-height:20px;}
+#top-line .work-time:before,
+#top-line .phones:before{width:30px;height:30px;top:-4px;font-size:22px;}
+.nav-menu li a{font-size:11px;}
+#promo{height:auto;padding-bottom:40px;}
+#promo .main-title{margin-bottom:35px;padding-top:40px;font-size:36px;line-height:48px;}
+#promo .features-list li img{width:120px;height:auto;}
+#promo .features-list li .text{padding:0;font-size:14px;line-height:18px;}
+#about{padding-top:57px;padding-bottom:62px;}
+#about .section-title{margin-bottom:30px;padding-left:0;}
+#about .text{font-size:14px;line-height:22px;}
+#about .img{width:230px;height:230px;margin-left:30px;}
+#about .img:before,
+#about .img:after,
+#about .img img{width:218px;height:218px;}
+#projects{padding-top:63px;padding-bottom:70px;}
+#projects .section-title,
+#examples .section-title,
+#price .section-title,
+#catalog .section-title,
+#testimonials .section-title,
+#clients .section-title,
+#contacts .section-title{font-size:25px;line-height:33px;}
+#projects .left blockquote{padding:7px 20px 12px 25px;font-size:18px;line-height:26px;}
+#projects .button{margin-left:27px;}
+#projects .right{height:250px;padding:17px 15px 0;background-size:350px auto;}
+#projects .right .text{font-size:14px;line-height:22px;}
+#examples,
+#catalog,
+#clients{padding-top:63px;background-position:center 25px;}
+#examples .section-title,
+#price .section-title,
+#catalog .section-title,
+#testimonials .section-title,
+#clients .section-title,
+#contacts .section-title{margin-bottom:51px;}
+#examples .section-title{padding:0;}
+#examples .img{width:auto;height:227px;}
+#examples .img:before,
+#examples .img:after{height:227px;}
+#examples .img .title{font-size:22px;line-height:30px;}
+#examples .table{z-index:25;}
+#examples .table table td:first-child{padding-left:15px;padding-right:15px;}
+#examples .table table td:last-child{padding-right:15px;}
+#examples .stuff-price,
+#examples .work-price{padding-left:15px;padding-right:15px;}
+#examples .feedback .title{font-size:20px;line-height:28px;}
+#examples .feedback .form-wrp{padding:0 20px;}
+#examples .feedback .form-wrp input[type="submit"]{font-size:15px;line-height:44px;}
+#price{padding-top:63px;padding-bottom:65px;background-position:center top, center 25px, center center;}
+#price-tabs > ul li a{font-size:15px;line-height:64px;}
+#catalog{padding-bottom:53px;}
+.items-list .text{padding:20px 20px 15px;}
+#testimonials{padding-top:63px;padding-bottom:70px;background-position:center top, center 25px, center center;}
+#testimonials .wrp{width:720px;height:516px;padding-right:50px;padding-left:70px;background-size:720px auto;}
+#testimonials .text{padding-top:20px;font-size:14px;line-height:26px;}
+#testimonials .bx-controls{bottom:-38px;}
+#contacts{padding-top:63px;background-position:center top, center 25px, center center;}
+#contacts .contacts-list{margin-bottom:54px;}
+#copy{padding:36px 0 34px;}
+#subheader .nav-menu li:not(:last-child){margin-right:20px;}
+.content .page-title{font-size:25px;line-height:33px;}
+.content h2,
+.side-box .title{font-size:22px;line-height:26px;}
+.content h3{font-size:18px;line-height:24px;}
+.page .page-title{margin-bottom:22px;}
+.side-menu-list li:before{top:-2px;}
+.side-menu-list li{font-size:14px;line-height:18px;}
+.contacts-table td:last-child{font-size:16px;}
+h2.map_title{font-size:18px;}
+.full-width #feedback .left{float:left;width:calc(70% - 10px);}
+.full-width #feedback .right{float:right;width:30%;}
+.fixed-width #feedback .left{float:none;width:auto;margin-bottom:10px;}
+.fixed-width #feedback .right{float:none;width:auto;}
+}
+@media (max-width: 767px) {
+.container{width:auto;padding-left:20px;padding-right:20px;}
+.white-btn,
+.white-btn:focus,
+.red-btn,
+.red-btn:focus{height:36px;line-height:38px;}
+#top-line{height:auto;padding:25px 0 20px;}
+#logo,
+#top-line .work-time,
+#top-line .phones,
+#callback{float:none;width:auto;margin:0 auto;}
+#logo{width:220px;margin-bottom:12px;}
+#logo a,
+#logo a img{max-width:220px;max-height:54px;}
+#top-line .work-time:before,
+#top-line .phones:before{display:none;}
+#top-line .work-time,
+#top-line .phones{padding:0;text-align:center;}
+#top-line .work-time{margin-bottom:8px;}
+#top-line .block{display:inline;}
+#top-line .phones .block{margin-left:10px;}
+#callback{padding-top:12px;}
+.slicknav_menu{display:block;}
+.nav-menu{display:none;}
+#promo{height:auto;padding-bottom:30px;}
+#promo .main-title{margin-bottom:30px;padding-top:40px;font-size:22px;line-height:32px;}
+#promo .features-list li{float:none;width:auto;margin-bottom:30px;}
+#promo .features-list li:nth-child(n){margin-right:0;}
+#about{padding-top:47px;padding-bottom:52px;background:none;}
+#about .section-title{min-height:0;margin-bottom:27px;padding:0;font-size:22px;line-height:32px;background:none;}
+#about .text{font-size:14px;line-height:22px;text-align:left;}
+#about .img{width:180px;height:180px;margin-left:20px;}
+#about .img:before,
+#about .img:after,
+#about .img img{width:168px;height:168px;}
+#projects{padding-top:53px;padding-bottom:50px;}
+#actions .section-title,
+#projects .section-title,
+#examples .section-title,
+#price .section-title,
+#catalog .section-title,
+#testimonials .section-title,
+#clients .section-title,
+#contacts .section-title{font-size:22px;line-height:32px;}
+#projects .section-title{width:auto;text-align:center;}
+#projects .left,
+#projects .right{float:none;width:auto;}
+#projects .left{margin-bottom:40px;}
+#projects .left blockquote{padding:0;font-size:18px;line-height:28px;text-align:center;border:0;}
+#projects .button{margin:0 auto;}
+#projects .right{height:auto;margin:0;padding:25px 30px 30px;background:#1385B7;}
+#examples,
+#catalog,
+#clients{padding-top:63px;background-position:center 25px;}
+#examples .section-title{padding:0;}
+#examples .section-title,
+#price .section-title,
+#catalog .section-title,
+#testimonials .section-title,
+#clients .section-title,
+#contacts .section-title{margin-bottom:41px;}
+#examples .examples-list li{float:none;width:300px;}
+#examples .examples-list li,
+#examples .examples-list li:not(:last-child){margin:0 auto 20px;}
+#examples .feedback .wrp{padding-bottom:35px;}
+#examples .feedback .title{font-size:18px;line-height:26px;}
+#examples .feedback .form-wrp .field:not(:last-child){margin-right:0;}
+#examples .feedback .form-wrp .field{float:none;width:auto;margin-bottom:10px;}
+#price{padding-top:63px;padding-bottom:65px;background-position:center top, center 25px, center center;}
+#price-tabs > ul li{display:table;}
+#price-tabs > ul li a{display:table-cell;width:100%;font-size:15px;line-height:20px;padding:2px 8px 0;vertical-align:middle;}
+#catalog{padding-bottom:43px;}
+#catalog .button{width:calc((100% - 20px) / 2);}
+.items-list li{width:calc((100% - 20px) / 2);}
+.items-list li:not(:nth-child(3n)){margin-right:0;}
+.items-list li:not(:nth-child(2n)){margin-right:20px;}
+.items-list .text{padding:20px 20px 15px;}
+.items-list .text h3{font-size:14px;}
+#partners .owl-carousel{padding:0 40px;}
+#testimonials{padding-top:63px;padding-bottom:70px;background-position:center top, center 25px, center center;}
+#testimonials .wrp{width:auto;height:auto;padding:0 30px 80px;background:#f5f5f5;}
+#testimonials .text{padding-top:20px;font-size:14px;line-height:26px;}
+#testimonials .photo{width:100px;height:130px;padding-top:30px;background:none;}
+#testimonials .meta{width:calc(100% - 100px);height:130px;padding-top:40px;}
+#testimonials .rating{float:none;clear:both;width:auto;padding:20px 0 0;text-align:left;}
+#testimonials .rating span{margin:0 -6px 0 0;}
+#testimonials .bx-controls{bottom:-45px;}
+#contacts{padding-top:63px;background-position:center top, center 25px, center center;}
+#contacts .contacts-list{margin-bottom:34px;}
+#contacts .contacts-list li{margin-bottom:30px;}
+#contacts .contacts-list.col4 li{width:calc((100% - 20px) / 2);}
+#contacts .contacts-list.col4 li:not(:nth-child(4)){margin-right:0;}
+#contacts .contacts-list.col4 li:not(:nth-child(2n)){margin-right:20px;}
+#contacts .icon-wrp{margin-bottom:11px;}
+#copy{padding:36px 0 34px;}
+#body.inside{padding:40px 0 30px;}
+#content-box.fixed-width,
+#sidebar{float:none;width:auto;}
+#content-box.fixed-width{margin-bottom:30px;}
+.content .page-title{font-size:22px;line-height:32px;}
+.content h2,
+.side-box .title{font-size:18px;line-height:28px;}
+.content h3{font-size:16px;line-height:24px;}
+.page .page-title{margin-bottom:22px;}
+.side-box:not(.widget_sp_image){padding-top:25px;padding-bottom:15px;}
+.catalog-page .page-title{margin-bottom:25px;}
+.contacts-table td:last-child{font-size:16px;}
+h2.map_title{font-size:18px;}
+#feedback{padding-bottom:0;}
+#feedback .left{float:left;width:calc(50% - 5px);}
+#feedback .right{float:right;width:calc(50% - 5px);}
+#subfooter #counters{right:20px;}
+}
+@media (max-width: 479px) {
+#top-line .phones .block {
+display: block;
+margin-left: 0;
+}
+#about .img::before,
+#about .img::after {
+display: none;
+}
+#about .img {
+float: none;
+width: auto;
+margin: 0;
+}
+#about .img img {
+width: 100%;
+height: auto;
+margin: 0 0 22px;
+}
+#projects .right {
+padding-left: 20px;
+padding-right: 20px;
+}
+#projects .right .red-btn {
+width: auto;
+}
+#examples .examples-list li {
+width: 260px;
+}
+#examples .img,
+#examples .img:before,
+#examples .img:after {
+width: 260px;
+height: 260px;
+}
+#examples .img .title {
+font-size: 22px;
+line-height: 30px;
+}
+#examples .feedback .wrp {
+}
+#examples .feedback .form-wrp {
+padding: 0 20px;
+}
+#examples .feedback .form-wrp input[type="submit"] {
+font-size: 15px;
+line-height: 43px;
+}
+#price-tabs > ul {
+margin-bottom: 10px;
+}
+#price-tabs > ul li {
+float: none;
+width: 100%;
+}
+#price-tabs > ul li:not(:last-child) {
+margin-right: 0;
+margin-bottom: 10px;
+}
+#price-tabs .one-tab {
+padding: 20px 15px 29px;
+overflow-x: scroll;
+}
+#price-tabs .one-tab h3, #price-tabs .worktypes td:last-child {
+font-size: 14px;
+}
+#price-tabs .worktypes td:last-child {
+padding-left: 10px;
+}
+#price-tabs .worktypes td:first-child {
+padding-right: 10px;
+}
+.items-list li {
+float: none;
+width: auto;
+}
+.items-list li:not(:nth-child(2n)),
+.items-list li:not(:nth-child(3n)) {
+margin-right: 0;
+}
+#catalog .button {
+width: auto;
+}
+#testimonials .text {
+line-height: 22px;
+}
+#contacts .contacts-list.col4 li,
+#contacts .contacts-list.col3 li,
+#contacts .contacts-list.col2 li,
+#contacts .contacts-list.col1 li {
+float: none;
+width: auto;
+padding: 0 20px;
+}
+#contacts .contacts-list li {
+margin-right: 0 !important;
+}
+.content .thumbnail {
+float: none;
+width: 100%;
+margin: 0 0 22px;
+}
+#feedback .left,
+#feedback .right {
+float: none;
+width: auto;
+}
+#feedback .left {
+margin-bottom: 10px;
+}
+h2.map_title {
+font-size: 12px;
+line-height: 22px;
+}
+.popup-form {
+width: 240px;
+}
+#subfooter #copytext {
+padding-right: 0;
+}
+#subfooter #counters {
+position: relative;
+left: auto;
+right: auto;
+padding-top: 15px;
+}
+#actions {
+display: none;
+}
+}
